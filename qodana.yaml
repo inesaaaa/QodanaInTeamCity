@@ -1,0 +1,10 @@
+version: 1.0
+profile: default
+include:
+  - src/main
+  - src/test
+exclude:
+  - build/
+  - out/
+  - tmp/
+  - .idea/
