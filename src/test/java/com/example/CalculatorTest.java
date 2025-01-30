@@ -1,0 +1,26 @@
+package com.example;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class CalculatorTest {
+
+    @Test
+    public void testAdd() {
+        Calculator calculator = new Calculator();
+        assertEquals(5, calculator.add(2, 3));
+    }
+
+    @Test
+    public void testSubtract() {
+        Calculator calculator = new Calculator();
+        // Incomplete: No assertion
+    }
+
+    @Test
+    public void testDivide() {
+        Calculator calculator = new Calculator();
+        // This test is expected to fail due to a bug in the divide method
+        assertEquals(2, calculator.divide(4, 2));
+    }
+}
